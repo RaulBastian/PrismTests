@@ -6,7 +6,51 @@
         xmlns:local="clr-namespace:HierarchicalDelegateCommandsForContextMenu"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+
+    <ListBox ItemsSource="{Binding Items, Mode=OneWay}">
+        <ListBox.ItemContainerStyle>
+            <Style TargetType="ListBoxItem" BasedOn="{StaticResource {x:Type ListBoxItem}}">
+                <Setter Property="HorizontalContentAlignment" Value="Stretch"></Setter>
+            </Style>
+        </ListBox.ItemContainerStyle>
         
-    </Grid>
+        <ListBox.ItemTemplate>
+            <DataTemplate>
+                <Control HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                    <Control.Template>
+                        <ControlTemplate>
+                            <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                                <Grid.ContextMenu>
+                                    <ContextMenu ItemsSource="{Binding Commands}">
+                                        <ContextMenu.ItemContainerStyle>
+                                            <Style TargetType="{x:Type MenuItem}">
+                                                <Setter Property="Command" Value="{Binding .}"></Setter>
+                                                <Setter Property="CommandParameter" Value="{Binding PlacementTarget.DataContext,
+                                                        RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=ContextMenu}}"></Setter>
+                                            </Style>
+                                        </ContextMenu.ItemContainerStyle>
+                                        <ContextMenu.ItemTemplate>
+                                            <HierarchicalDataTemplate ItemsSource="{Binding Commands}">
+                                                <StackPanel>
+                                                    <TextBlock Text="{Binding Header}"></TextBlock>
+                                                </StackPanel>
+                                            </HierarchicalDataTemplate>
+                                        </ContextMenu.ItemTemplate>
+                                    </ContextMenu>
+                                </Grid.ContextMenu>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <TextBlock Grid.Row="0" Text="{Binding DataObject.CustomerID}"></TextBlock>
+                                <TextBlock Grid.Row="1" Text="{Binding DataObject.CompanyName}"></TextBlock>
+                            </Grid>
+                        </ControlTemplate>
+                    </Control.Template>
+                </Control>
+            </DataTemplate>
+        </ListBox.ItemTemplate>
+    </ListBox>
+
+
 </Window>
