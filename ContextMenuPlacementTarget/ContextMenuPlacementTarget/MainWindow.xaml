@@ -1,0 +1,21 @@
+﻿<Window x:Class="ContextMenuPlacementTarget.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ContextMenuPlacementTarget"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Border Name="bd" Background="Yellow" ContextMenuService.Placement="Right">
+            <Border.ContextMenu>
+                <ContextMenu PreviewMouseDown="ContextMenu_PreviewMouseDown">
+                    <MenuItem Header="Menu1"></MenuItem>
+                    <MenuItem Header="Menu2"></MenuItem>
+                    <MenuItem Header="Menu3"></MenuItem>
+                    <MenuItem Header="Menu4"></MenuItem>
+                </ContextMenu>
+            </Border.ContextMenu>
+        </Border>
+    </Grid>
+</Window>

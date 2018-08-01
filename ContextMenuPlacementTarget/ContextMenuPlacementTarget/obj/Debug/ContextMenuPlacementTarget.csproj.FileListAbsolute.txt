@@ -1,0 +1,15 @@
+C:\Projects\GitHub\PrismTests\ContextMenuPlacementTarget\ContextMenuPlacementTarget\bin\Debug\ContextMenuPlacementTarget.exe.config
+C:\Projects\GitHub\PrismTests\ContextMenuPlacementTarget\ContextMenuPlacementTarget\bin\Debug\ContextMenuPlacementTarget.exe
+C:\Projects\GitHub\PrismTests\ContextMenuPlacementTarget\ContextMenuPlacementTarget\bin\Debug\ContextMenuPlacementTarget.pdb
+C:\Projects\GitHub\PrismTests\ContextMenuPlacementTarget\ContextMenuPlacementTarget\obj\Debug\ContextMenuPlacementTarget.csprojAssemblyReference.cache
+C:\Projects\GitHub\PrismTests\ContextMenuPlacementTarget\ContextMenuPlacementTarget\obj\Debug\MainWindow.g.cs
+C:\Projects\GitHub\PrismTests\ContextMenuPlacementTarget\ContextMenuPlacementTarget\obj\Debug\App.g.cs
+C:\Projects\GitHub\PrismTests\ContextMenuPlacementTarget\ContextMenuPlacementTarget\obj\Debug\ContextMenuPlacementTarget_MarkupCompile.cache
+C:\Projects\GitHub\PrismTests\ContextMenuPlacementTarget\ContextMenuPlacementTarget\obj\Debug\ContextMenuPlacementTarget_MarkupCompile.lref
+C:\Projects\GitHub\PrismTests\ContextMenuPlacementTarget\ContextMenuPlacementTarget\obj\Debug\MainWindow.baml
+C:\Projects\GitHub\PrismTests\ContextMenuPlacementTarget\ContextMenuPlacementTarget\obj\Debug\ContextMenuPlacementTarget.g.resources
+C:\Projects\GitHub\PrismTests\ContextMenuPlacementTarget\ContextMenuPlacementTarget\obj\Debug\ContextMenuPlacementTarget.Properties.Resources.resources
+C:\Projects\GitHub\PrismTests\ContextMenuPlacementTarget\ContextMenuPlacementTarget\obj\Debug\ContextMenuPlacementTarget.csproj.GenerateResource.cache
+C:\Projects\GitHub\PrismTests\ContextMenuPlacementTarget\ContextMenuPlacementTarget\obj\Debug\ContextMenuPlacementTarget.csproj.CoreCompileInputs.cache
+C:\Projects\GitHub\PrismTests\ContextMenuPlacementTarget\ContextMenuPlacementTarget\obj\Debug\ContextMenuPlacementTarget.exe
+C:\Projects\GitHub\PrismTests\ContextMenuPlacementTarget\ContextMenuPlacementTarget\obj\Debug\ContextMenuPlacementTarget.pdb
